@@ -10,6 +10,7 @@
 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Carrusel{
     .control {
     position: absolute;
@@ -21,6 +22,13 @@
     margin-bottom: 10px;
     transform: translate(-50%, -50%);
 
+=======
+
+#Galeriainfinita {
+@keyframes tonext {    
+    75% {
+        left: 0;
+>>>>>>> 5429e348e6012b47304efbfe30a5541e9aec3709
 }
 .Imagenes {
     display: flex;
@@ -60,12 +68,12 @@
     opacity: 1;
 }
 }
-=======
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     align-items: center; 
-    background-color: #000; 
+    background-color: #f5d7ef; 
     padding: 10px 20px;
 }
 
@@ -85,17 +93,32 @@ header {
 }
 
 header a {
-    color: #fff; 
+    color: #f5d7ef; 
     text-decoration: none;
     margin-left: 15px;
+     font-weight: bold;
 }
 #Pedido{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
+     display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
     background-color: #f3c2ea;
+    text-align: center;
+    gap: 20px;
 }
+.pedido {
+  background: linear-gradient(135deg, #f8bbd0, #ce93d8);
+  padding: 40px 20px;
+  border-radius: 12px;
+  color: white; 
+}
+.pedido {
+  background-color: #fce4f9; 
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
 .haz{
     grid-row-start: 2;
 }
@@ -117,6 +140,7 @@ footer {
     align-items: flex-start; 
     padding: 20px;
     background-color: #f5d7ef;
+     margin-top: 20px;
 }
 
 .politicas {
@@ -134,4 +158,37 @@ footer {
     color: #000;
     margin: 5px 0;
 }
->>>>>>> 59d9a223cfa12b045abc505db8dc631d571c1a16
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8a2c82; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #f3c2ea; 
+  color: #000;
+}
+
+
+.card {
+  background: #f7d5f3; 
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}

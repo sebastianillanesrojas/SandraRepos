@@ -12,7 +12,13 @@ h1,h2{
 .Dulce{
      background-color: rgb(245, 215, 239);
 }
+.Edicion{
+     background-color: rgb(246, 246, 197);
+}
 #sal{
+    text-align: center;
+}
+#dul{
     text-align: center;
 }
 .pancitos{
@@ -85,6 +91,12 @@ h1,h2{
     width: 300px;
     text-align: center;
 }
+.contenedor-salado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap:20px;
+}
 .Tostadas{
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -106,12 +118,119 @@ h1,h2{
     text-align: center;
 }
 .Picada{
-    border: 2px solid #000533;
+    border: 2px solid #ccc;
     border-radius: 8px;
     padding: 15px;
     margin:15px 0;
-    background-color: rgb(77,130,188);
+    background-color: rgb(254, 235, 231);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.TartasFrutales{
+    border: 2px solid #33001f;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(252, 105, 152);
+    box-shadow: 0 4px 6px rgba(252, 105, 152);
     width: 350px;
     text-align: center;
+}
+.contenedor-tartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap:20px;
+}
+.TFrut{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.TFrutRoj{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.TDuraz{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.TAnaná{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.Tiramisú{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.Masitas{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.PanD{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(254, 235, 231);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.Mesa{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(254, 235, 231);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.Mesa img{
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+.contenedor-edicion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap:20px;
 }
