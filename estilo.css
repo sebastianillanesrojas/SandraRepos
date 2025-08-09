@@ -1,10 +1,15 @@
 /* css externo */
 #principal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
     width: 100px;
     height: auto;
-    background-color:azure;
+    
 
 }
+<<<<<<< HEAD
 #Galeriainfinita {
 @keyframes tonext {    
     75% {
@@ -83,3 +88,78 @@ ol, li {
     filter: drop-shadow(0 )
 }
 }
+=======
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: center; 
+    background-color: #000; 
+    padding: 10px 20px;
+}
+
+.menuh {
+    grid-column: 1;   
+    justify-self: start;
+}
+
+.Logo {
+    grid-column: 2;   
+    justify-self: center;
+}
+
+.menu-items {
+    grid-column: 3;  
+    justify-self: end;
+}
+
+header a {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: 15px;
+}
+#Pedido{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    background-color: #f3c2ea;
+}
+.haz{
+    grid-row-start: 2;
+}
+.whatsapp{
+        grid-row-start: 3;
+
+}
+.gmail{
+    grid-column-start: 3;
+    grid-row-start: 3
+}
+.instagram{
+     grid-column-start: 5;
+    grid-row-start: 3;
+}
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    background-color: #f5d7ef;
+}
+
+.politicas {
+    text-align: right; 
+}
+
+.politicas .links {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;
+}
+
+.politicas .links a {
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0;
+}
+>>>>>>> 59d9a223cfa12b045abc505db8dc631d571c1a16
