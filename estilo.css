@@ -9,7 +9,7 @@
     
 
 }
-<<<<<<< HEAD
+
 #Galeriainfinita {
 @keyframes tonext {    
     75% {
@@ -93,7 +93,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     align-items: center; 
-    background-color: #000; 
+    background-color: #f5d7ef; 
     padding: 10px 20px;
 }
 
@@ -113,16 +113,19 @@ header {
 }
 
 header a {
-    color: #fff; 
+    color: #f5d7ef; 
     text-decoration: none;
     margin-left: 15px;
+     font-weight: bold;
 }
 #Pedido{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
+     display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
     background-color: #f3c2ea;
+    text-align: center;
+    gap: 20px;
 }
 .haz{
     grid-row-start: 2;
@@ -145,6 +148,7 @@ footer {
     align-items: flex-start; 
     padding: 20px;
     background-color: #f5d7ef;
+     margin-top: 20px;
 }
 
 .politicas {
@@ -162,4 +166,4 @@ footer {
     color: #000;
     margin: 5px 0;
 }
->>>>>>> 59d9a223cfa12b045abc505db8dc631d571c1a16
+
