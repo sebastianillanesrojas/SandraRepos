@@ -1,4 +1,11 @@
 /*css externo de productos*/
+@font-face{
+    font-family: 'LEMONMILK-Medium' ;
+    src: url(LEMONMILK-Medium.otf);
+}
+h1,h2{
+    font-family: 'LEMONMILK-Medium';
+}
 .salado{
      background-color: rgb(196, 218, 250);
 }
