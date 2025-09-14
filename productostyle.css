@@ -5,6 +5,9 @@
 .Dulce{
      background-color: rgb(245, 215, 239);
 }
+#sal{
+    text-align: center;
+}
 .pancitos{
     border: 2px solid #ccc;
     border-radius: 8px;
