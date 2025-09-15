@@ -1,0 +1,7 @@
+@font-face{
+    font-family: 'LEMONMILK-Medium' ;
+    src: url(LEMONMILK-Medium.otf);
+}
+h1, h2{
+    font-family: 'LEMONMILK-Medium';
+}
