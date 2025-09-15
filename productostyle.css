@@ -125,3 +125,13 @@ h1,h2{
     width: 350px;
     text-align: center;
 }
+.TFrut{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(245,149,151);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
