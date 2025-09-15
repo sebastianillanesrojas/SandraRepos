@@ -129,9 +129,8 @@ h1,h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-    gap:20px;
+gap:20px;
 }
-
 .TFrut{
     border: 2px solid #ccc;
     border-radius: 8px;
