@@ -12,6 +12,6 @@ body{
 h1, h2{
     font-family: 'LEMONMILK-Medium';
 }
-p{
+p, h4{
     font-family: 'TT Fors Trial Regular';
 }
