@@ -7,10 +7,13 @@
     font-family: 'TT Fors Trial Regular' ;
     src: url(TT\ Fors\ Trial\ Regular.ttf);
 }
+img{
+    border-radius: 3%;
+}
 p{
     font-family: 'TT Fors Trial Regular';
 }
-h1,h2, h3{
+h1,h2, h3, h4{
     font-family: 'LEMONMILK-Medium';
 }
 .salado{
