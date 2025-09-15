@@ -115,3 +115,13 @@ h1,h2{
     width: 350px;
     text-align: center;
 }
+.TartasFrutales{
+    border: 2px solid #33001f;
+    border-radius: 8px;
+    padding: 15px;
+    margin:15px 0;
+    background-color: rgb(252, 105, 152);
+    box-shadow: 0 4px 6px rgba(252, 105, 152);
+    width: 350px;
+    text-align: center;
+}
