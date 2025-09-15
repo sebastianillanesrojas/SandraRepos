@@ -3,7 +3,14 @@
     font-family: 'LEMONMILK-Medium' ;
     src: url(LEMONMILK-Medium.otf);
 }
-h1,h2{
+@font-face{
+    font-family: 'TT Fors Trial Regular' ;
+    src: url(TT\ Fors\ Trial\ Regular.ttf);
+}
+p{
+    font-family: 'TT Fors Trial Regular';
+}
+h1,h2, h3{
     font-family: 'LEMONMILK-Medium';
 }
 .salado{
