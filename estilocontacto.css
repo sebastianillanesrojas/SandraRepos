@@ -5,6 +5,13 @@ body{
     font-family: 'LEMONMILK-Medium' ;
     src: url(LEMONMILK-Medium.otf);
 }
+@font-face{
+    font-family: 'TT Fors Trial Regular' ;
+    src: url(TT\ Fors\ Trial\ Regular.ttf);
+}
 h1, h2{
     font-family: 'LEMONMILK-Medium';
+}
+p{
+    font-family: 'TT Fors Trial Regular';
 }
