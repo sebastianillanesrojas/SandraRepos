@@ -199,3 +199,7 @@ h1 , h2   {
 a , p {
      font-family: 'TT Fors Trial Regular';
 }
+
+body{
+    background-color: #ffc9c8;
+}
