@@ -1,4 +1,14 @@
 /* css externo */
+
+@font-face{
+    font-family: 'LEMONMILK-Medium' ;
+    src: url(LEMONMILK-Medium.otf);
+}
+@font-face{
+    font-family: 'TT Fors Trial Regular' ;
+    src: url(TT\ Fors\ Trial\ Regular.ttf);
+}
+
 #principal {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
