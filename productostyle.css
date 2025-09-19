@@ -7,6 +7,9 @@
     font-family: 'TT Fors Trial Regular' ;
     src: url(TT\ Fors\ Trial\ Regular.ttf);
 }
+body{
+    background-color: #80739e;
+}
 img{
     border-radius: 3%;
 }
@@ -17,13 +20,19 @@ h1,h2, h3, h4{
     font-family: 'LEMONMILK-Medium';
 }
 .salado{
-     background-color: rgb(196, 218, 250);
+    background-color: rgb(196, 218, 250);
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
 .Dulce{
-     background-color: rgb(245, 215, 239);
+    background-color: rgb(245, 215, 223);
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
 .Edicion{
-     background-color: rgb(246, 246, 197);
+    background-color: rgb(246, 246, 197);
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
 #sal{
     text-align: center;
