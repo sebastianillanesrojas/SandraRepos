@@ -191,3 +191,11 @@ footer {
   gap: 20px;
   padding: 20px;
 }
+
+h1 , h2   {
+     font-family: 'LEMONMILK-Medium';
+}
+
+a , p {
+     font-family: 'TT Fors Trial Regular';
+}
