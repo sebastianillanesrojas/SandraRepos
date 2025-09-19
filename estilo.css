@@ -92,7 +92,7 @@ header {
 }
 
 header a {
-    color: #f5d7ef; 
+    color: #0a0208; 
     text-decoration: none;
     margin-left: 15px;
      font-weight: bold;
@@ -140,6 +140,7 @@ footer {
     padding: 20px;
     background-color: #f5d7ef;
      margin-top: 20px;
+     background: linear-gradient(135deg, #ce93d8, #f8bbd0);
 }
 
 .politicas {
@@ -201,5 +202,5 @@ a , p {
 }
 
 body{
-    background-color: #ffc9c8;
+    background-color: rgb(196, 218, 250);
 }
