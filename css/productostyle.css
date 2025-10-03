@@ -53,57 +53,7 @@ h1,h2, h3, h4{
     width: 300px;
     text-align: center;
 }
-.Cheesecake{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TFranui{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.cupcakes{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Minipost{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Alfajores{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Postrecitos{
+.Pdulce{
     border: 2px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -169,66 +119,6 @@ gap:20px;
   flex-wrap: wrap;
   justify-content: center;
 gap:20px;
-}
-.TFrut{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TFrutRoj{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TDuraz{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TAnaná{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Tiramisú{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Masitas{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
 }
 .PanD{
     border: 2px solid #ccc;
