@@ -1,11 +1,11 @@
 /*css externo de productos*/
 @font-face{
     font-family: 'LEMONMILK-Medium' ;
-    src: url(LEMONMILK-Medium.otf);
+    src: url("../fuentes/LEMONMILK-Medium.otf");
 }
 @font-face{
     font-family: 'TT Fors Trial Regular' ;
-    src: url(TT\ Fors\ Trial\ Regular.ttf);
+    src: url("../fuentes/TT\ Fors\ Trial\ Regular.ttf");
 }
 body{
     background-color: #80739e;
@@ -43,7 +43,7 @@ h1,h2, h3, h4{
 #ed{
     text-align: center;
 }
-.pancitos{
+.PSalado{
     border: 2px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -52,8 +52,14 @@ h1,h2, h3, h4{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.Cheesecake{
+.PSalado:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.Pdulce{
     border: 2px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -62,83 +68,20 @@ h1,h2, h3, h4{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.TFranui{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+.Pdulce, .TartasFrutales:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
-.cupcakes{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Minipost{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Alfajores{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Postrecitos{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
+
 .contenedor-salado {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 gap:20px;
 }
-.Tostadas{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(77,130,188);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Sandwiches{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(77,130,188);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
+
 .Picada{
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -163,6 +106,7 @@ gap:20px;
     text-align: center;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contenedor-tartas {
   display: flex;
@@ -170,66 +114,7 @@ gap:20px;
   justify-content: center;
 gap:20px;
 }
-.TFrut{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TFrutRoj{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TDuraz{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.TAnaná{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Tiramisú{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Masitas{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(245,149,151);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
+
 .PanD{
     border: 2px solid #ccc;
     border-radius: 8px;
