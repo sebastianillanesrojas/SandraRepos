@@ -1,0 +1,213 @@
+/* css externo */
+
+@font-face{
+    font-family: 'LEMONMILK-Medium' ;
+    src: url(LEMONMILK-Medium.otf);
+}
+@font-face{
+    font-family: 'TT Fors Trial Regular' ;
+    src: url(TT\ Fors\ Trial\ Regular.ttf);
+}
+
+#principal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    width: 100px;
+    height: auto;
+    
+
+}
+#Carrusel .control {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    transform: translate(-50%, -50%);
+}
+
+#Carrusel .Imagenes {
+    display: flex;
+    aspect-ratio: 4 / 3;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+#Carrusel .Imagenes::-webkit-scrollbar {
+    display: none;
+}
+#Carrusel .Imagenes img {
+    object-fit: cover;
+}
+#Carrusel .img {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+#Carrusel .img a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+    opacity: 0.75;
+    transition: opacity ease 200ms;
+}
+#Carrusel .img a:hover {
+    opacity: 1;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: center; 
+    background-color: #f5d7ef; 
+    padding: 10px 20px;
+}
+
+.menuh {
+    grid-column: 1;   
+    justify-self: start;
+}
+
+.Logo {
+    grid-column: 2;   
+    justify-self: center;
+}
+
+.menu-items {
+    grid-column: 3;  
+    justify-self: end;
+}
+
+header a {
+    color: #0a0208; 
+    text-decoration: none;
+    margin-left: 15px;
+     font-weight: bold;
+}
+#Pedido{
+     display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f3c2ea;
+    text-align: center;
+    gap: 20px;
+}
+.pedido {
+  background: linear-gradient(135deg, #f8bbd0, #ce93d8);
+  padding: 40px 20px;
+  border-radius: 12px;
+  color: white; 
+}
+.pedido {
+  background-color: #fce4f9; 
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.haz{
+    grid-row-start: 2;
+}
+.whatsapp{
+        grid-row-start: 3;
+
+}
+.gmail{
+    grid-column-start: 3;
+    grid-row-start: 3
+}
+.instagram{
+     grid-column-start: 5;
+    grid-row-start: 3;
+}
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 20px;
+    background-color: #f5d7ef;
+     margin-top: 20px;
+     background: linear-gradient(135deg, #ce93d8, #f8bbd0);
+}
+
+.politicas {
+    text-align: right; 
+}
+
+.politicas .links {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;
+}
+
+.politicas .links a {
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8a2c82; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #f3c2ea; 
+  color: #000;
+}
+
+
+.card {
+  background: #f7d5f3; 
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+animar {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 1s forwards;
+}
+
+
+h1 , h2   {
+     font-family: 'LEMONMILK-Medium';
+}
+
+a , p {
+     font-family: 'TT Fors Trial Regular';
+}
+
+body{
+    background-color: rgb(196, 218, 250);
+}
