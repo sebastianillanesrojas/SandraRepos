@@ -60,6 +60,7 @@ h1,h2, h3, h4{
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
     opacity: 0.9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 .PSalado:hover {
   transform: scale(1.05);
