@@ -124,12 +124,19 @@ gap:20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .PEsp img{
-max-width: 100%;
-height: auto;
-border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
+
+.PEsp:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);  
+}
+
 .contenedor-edicion {
   display: flex;
   flex-wrap: wrap;
