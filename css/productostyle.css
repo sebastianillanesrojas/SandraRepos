@@ -52,9 +52,13 @@ h1,h2, h3, h4{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+<<<<<<< HEAD
        transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
 
   opacity: 0.9;
+=======
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+>>>>>>> be851ff35ce901863bb45f23dc2c458a28c93270
 }
 .PSalado:hover {
   transform: scale(1.05);
@@ -71,7 +75,13 @@ h1,h2, h3, h4{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.Pdulce, .TartasFrutales:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
 .contenedor-salado {
   display: flex;
   flex-wrap: wrap;
@@ -103,6 +113,7 @@ gap:20px;
     text-align: center;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .contenedor-tartas {
   display: flex;
