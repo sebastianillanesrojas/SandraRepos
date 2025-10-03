@@ -43,7 +43,7 @@ h1,h2, h3, h4{
 #ed{
     text-align: center;
 }
-.pancitos{
+.PSalado{
     border: 2px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -69,26 +69,7 @@ h1,h2, h3, h4{
   justify-content: center;
 gap:20px;
 }
-.Tostadas{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(77,130,188);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Sandwiches{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background-color: rgb(77,130,188);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
+
 .Picada{
     border: 2px solid #ccc;
     border-radius: 8px;
