@@ -1,11 +1,11 @@
 /*css externo de productos*/
 @font-face{
     font-family: 'LEMONMILK-Medium' ;
-    src: url(LEMONMILK-Medium.otf);
+    src: url("../fuentes/LEMONMILK-Medium.otf");
 }
 @font-face{
     font-family: 'TT Fors Trial Regular' ;
-    src: url(TT\ Fors\ Trial\ Regular.ttf);
+    src: url("../fuentes/TT\ Fors\ Trial\ Regular.ttf");
 }
 body{
     background-color: #80739e;
@@ -120,6 +120,7 @@ gap:20px;
   justify-content: center;
 gap:20px;
 }
+
 .PanD{
     border: 2px solid #ccc;
     border-radius: 8px;
