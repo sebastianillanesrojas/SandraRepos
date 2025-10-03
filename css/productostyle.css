@@ -92,16 +92,6 @@ h1,h2, h3, h4{
 gap:20px;
 }
 
-.Picada{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background: linear-gradient(135deg, rgb(254, 235, 231), rgb(228, 193, 128));
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
 .TartasFrutales{
     display: flex;
     justify-content: center;
@@ -125,7 +115,7 @@ gap:20px;
 gap:20px;
 }
 
-.PanD{
+.PEsp{
     border: 2px solid #ccc;
     border-radius: 8px;
     padding: 15px;
@@ -135,17 +125,7 @@ gap:20px;
     width: 300px;
     text-align: center;
 }
-.Mesa{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background: linear-gradient(135deg, rgb(254, 235, 231), rgb(228, 193, 128));
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-.Mesa img{
+.PEsp img{
 max-width: 100%;
 height: auto;
 border-radius: 8px;
