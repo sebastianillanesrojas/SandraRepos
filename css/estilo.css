@@ -1,4 +1,14 @@
 /* css externo */
+
+@font-face{
+    font-family: 'LEMONMILK-Medium' ;
+    src: url(LEMONMILK-Medium.otf);
+}
+@font-face{
+    font-family: 'TT Fors Trial Regular' ;
+    src: url(TT\ Fors\ Trial\ Regular.ttf);
+}
+
 #principal {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -82,7 +92,7 @@ header {
 }
 
 header a {
-    color: #f5d7ef; 
+    color: #0a0208; 
     text-decoration: none;
     margin-left: 15px;
      font-weight: bold;
@@ -130,6 +140,7 @@ footer {
     padding: 20px;
     background-color: #f5d7ef;
      margin-top: 20px;
+     background: linear-gradient(135deg, #ce93d8, #f8bbd0);
 }
 
 .politicas {
@@ -180,4 +191,16 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   padding: 20px;
+}
+
+h1 , h2   {
+     font-family: 'LEMONMILK-Medium';
+}
+
+a , p {
+     font-family: 'TT Fors Trial Regular';
+}
+
+body{
+    background-color: rgb(196, 218, 250);
 }
