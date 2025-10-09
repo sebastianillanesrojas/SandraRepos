@@ -1,12 +1,6 @@
 /* css externo */
-@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
-h1, h2 {
-  font-family: 'Bebas Neue', sans-serif;
-}
-/* @font-face{
-    font-family: 'TT Fors Trial Regular' ;
-    src: url("fuentes/TT\ Fors\ Trial\ Regular.ttf");
-} */
+
+
 
 #principal {
     display: grid;
