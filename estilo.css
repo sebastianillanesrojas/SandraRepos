@@ -260,7 +260,10 @@ footer {
   }
 }
 
-
+.resaltar {
+  background-color: #f8bbd0;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 a , p {
      font-family: 'TT Fors Trial Regular';
