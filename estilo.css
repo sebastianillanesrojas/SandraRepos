@@ -1,13 +1,15 @@
 /* css externo */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+h1{
 
-@font-face{
-    font-family: 'LEMONMILK-Medium' ;
-    src: url(LEMONMILK-Medium.otf);
+  font-optical-sizing: auto;
+ 
 }
-@font-face{
+
+/* @font-face{
     font-family: 'TT Fors Trial Regular' ;
-    src: url(TT\ Fors\ Trial\ Regular.ttf);
-}
+    src: url("fuentes/TT\ Fors\ Trial\ Regular.ttf");
+} */
 
 #principal {
     display: grid;
@@ -258,9 +260,7 @@ footer {
   }
 }
 
-h1 , h2   {
-     font-family: 'LEMONMILK-Medium';
-}
+
 
 a , p {
      font-family: 'TT Fors Trial Regular';

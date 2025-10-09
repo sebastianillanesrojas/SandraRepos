@@ -1,9 +1,12 @@
 /* css externo */
 
-@font-face{
-    font-family: 'LEMONMILK-Medium' ;
-    src: url("../fuentes/LEMONMILK-Medium.otf");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+h1{
+  /* font-family: "Oswald", sans-serif; */
+  font-optical-sizing: auto;
+ 
 }
+
 @font-face{
     font-family: 'TT Fors Trial Regular' ;
     src: url("../fuentes/TT\ Fors\ Trial\ Regular.ttf");
