@@ -22,11 +22,10 @@ h1{
 #dul{
     text-align: center;
 }
-
+/* TÍTULO ESPECIALES */
 #ed{
     text-align: center;
 }
-
 /* GENERAL */
 body{
     background-color: #80739e;
@@ -132,16 +131,30 @@ gap:20px;
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-.PEsp{
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
-    margin:15px 0;
-    background: linear-gradient(135deg, rgb(254, 235, 231), rgb(228, 193, 128));
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.PEsp {
+  border: 3px solid transparent;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+  background: linear-gradient(135deg, rgb(254, 235, 231), rgb(228, 193, 128));
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: bordes 4s linear infinite;
+}
+
+@keyframes bordes {
+  0%   { border-color: #ff8c8c; }
+  25%  { border-color: #f6c56c; }
+  50%  { border-color: #90ee90; }
+  75%  { border-color: #8ecae6; }
+  100% { border-color: #ff8c8c; }
+}
+
+.PEsp:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 .PEsp img{
@@ -150,17 +163,9 @@ gap:20px;
     border-radius: 8px;
 }
 
-.PEsp:hover{
-  transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);  
-}
-
 .contenedor-edicion {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 gap:20px;
 }
-
-
-
