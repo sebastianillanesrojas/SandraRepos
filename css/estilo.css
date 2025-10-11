@@ -10,10 +10,7 @@
     width: 100px;
     height: auto;
     
-
 }
-
-
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
@@ -21,52 +18,71 @@ header {
     background-color: #f5d7ef; 
     padding: 10px 20px;
 }
-
-
-
-
-
-
-
 .Logo {
     grid-column: 2;   
     justify-self: center;
 }
 
-.dropdown {
+.menu-icono {
+  width: 35px;
+  height: 25px;
   position: relative;
+  cursor: pointer;
   display: inline-block;
 }
-.dropbtn {
-  background-color: #f8bbd0;
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.dropdown-content {
-  display: none;
+
+.menu-icono::before,
+.menu-icono::after,
+.menu-icono span {
+  content: "";
   position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-  min-width: 150px;
-  z-index: 1;
-  border-radius: 5px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  transition: transform 0.3s ease;
 }
-.dropdown-content a {
+
+.menu-icono span {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-icono::before {
+  top: 0;
+}
+
+.menu-icono::after {
+  bottom: 0;
+}
+
+
+.menu-desplegable {
+  display: none;
+}
+
+
+.menu-desplegable:checked + .menu-icono::before {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.menu-desplegable:checked + .menu-icono::after {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.menu-desplegable:checked + .menu-icono span {
+  background-color: transparent;
+}
+
+
+.menu-items {
+  display: none;
+}
+
+.menu-desplegable:checked ~ .menu-items {
   display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
 }
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
 
 header a {
     color: #0a0208; 
@@ -192,21 +208,34 @@ footer {
   transform: scale(1.05); 
   box-shadow: 0 0 25px rgba(181, 63, 160, 0.6);
 }
+.mostrar {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.8s ease-in-out;
+}
+
+.mostrar:hover {
+  opacity: 1;
+  transform: scale(1);
+}
 
 
-
+a , p {
+     font-family: 'TT Fors Trial Regular';
+}
 
 body{
     background-color: rgb(196, 218, 250);
 }
-/* === Carrusel de imágenes === */
+/* === Carrusel de imágenes (centrado y alargado) === */
 
 .carrusel {
-  width: 100%;
+  width: 90%;                /* un poco más angosto, centrado */
+  max-width: 1100px;         /* no se estira demasiado en pantallas grandes */
+  margin: 50px auto;         /* centrado con separación arriba y abajo */
   overflow: hidden;
-  margin: 40px auto;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 18px;       /* bordes suaves */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .slider {
@@ -222,12 +251,12 @@ body{
 
 .slides img {
   width: 20%;
-  height: 400px;
-  object-fit: cover;
+  height: 450px;             /* más alto para que se luzcan */
+  object-fit: cover;         /* recorta sin deformar */
   transition: transform 1s ease-in-out;
 }
 
-/* Animación de desplazamiento */
+/* === Animación === */
 @keyframes slide {
   0% { transform: translateX(0); }
   15% { transform: translateX(0); }
@@ -244,15 +273,17 @@ body{
   100% { transform: translateX(-80%); }
 }
 
-/* === Versión responsive (celulares y tablets) === */
+/* === Responsive === */
 @media (max-width: 768px) {
+  .carrusel {
+    width: 95%;
+  }
   .slides img {
-    height: 250px; /* más bajo en pantallas pequeñas */
+    height: 300px;
   }
 }
-
 @media (max-width: 480px) {
   .slides img {
-    height: 200px;
+   height: 220px;
   }
 }
