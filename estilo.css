@@ -278,14 +278,12 @@ body{
   .carrusel {
     width: 95%;
   }
-
   .slides img {
     height: 300px;
   }
 }
-
 @media (max-width: 480px) {
   .slides img {
-    height: 220px;
+   height: 220px;
   }
 }
