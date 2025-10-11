@@ -33,7 +33,10 @@ header {
     justify-self: center;
 }
 
-
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
 header a {
     color: #0a0208; 
