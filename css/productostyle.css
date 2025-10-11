@@ -170,3 +170,43 @@ gap:20px;
   justify-content: center;
 gap:20px;
 }
+/*El responsive es para que los productos se vean bien en cualquier dispositivo -Dani*/
+/* === RESPONSIVE DESIGN === */
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 992px) {
+  .PSalado, .Pdulce, .PEsp, .TartasFrutales {
+    width: 45%; /* dos productos por fila */
+  }
+
+  h1, h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Celulares (pantallas pequeñas) */
+@media (max-width: 600px) {
+  .PSalado, .Pdulce, .PEsp, .TartasFrutales {
+    width: 90%; /* un producto por fila */
+  }
+
+  .contenedor-salado,
+  .contenedor-tartas,
+  .contenedor-edicion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  p, h5 {
+    font-size: 0.9rem;
+    }
+}
