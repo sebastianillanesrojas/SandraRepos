@@ -17,7 +17,7 @@
        h2 {
       font-family: 'Montserrat', sans-serif;
        }
-           p {
+           p, a {
       font-family: 'Roboto', sans-serif;
     }
 
@@ -28,18 +28,14 @@
     <nav id="principal">
         </nav>
     <header>
+        <div class="dropdown">
+          <button class="dropbtn">Información</button>
+          <div class="dropdown-content">
+               <a href=contacto.html>Contactos</a>
+               <a href=productos.html>Productos</a>
+          </div>
+        </div>
         
-        <div class="menuh">
-  <input type="checkbox" id="menu-desplegable" class="menu-desplegable">
-  <label for="menu-desplegable" class="menu-icono">
-    <span></span>
-  </label>
-</div>
-
-<nav class="menu-items">
-  <a href="productos.html">Productos</a>
-  <a href="SandraRepos/contacto.html">Contacto</a>
-</nav>
 
             <!--logo-->
 
@@ -53,7 +49,7 @@
    
     <section>
         <h2 class="card resaltar">¿Quienes somos?</h2>
-        <p >Bienvenidos a SandraRepos. Aquí encontrarás una variedad de productos, como tortas, cupcakes, tartas, box de
+        <p class="animar">Bienvenidos a SandraRepos. Aquí encontrarás una variedad de productos, como tortas, cupcakes, tartas, box de
             desayuno e incluso opciones saladas.</p>
     </section>
     
