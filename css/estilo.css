@@ -1,82 +1,71 @@
 /* css externo */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-h1{
-  /* font-family: "Oswald", sans-serif; */
-  font-optical-sizing: auto;
- 
-}
-
-@font-face{
-    font-family: 'TT Fors Trial Regular' ;
-    src: url("../fuentes/TT\ Fors\ Trial\ Regular.ttf");
-}
 
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+#principal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    width: 100px;
+    height: auto;
+    
+
 }
 
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f5d7ef;
-  padding: 10px 20px;
-  position: relative; 
-  z-index: 10; 
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(196, 218, 250);
-  overflow-x: hidden;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f5d7ef;
-  padding: 10px 20px;
-  position: relative; 
-  z-index: 10; 
-}
-
-
-
-
-
-header {
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     align-items: center; 
     background-color: #f5d7ef; 
     padding: 10px 20px;
 }
 
-.menuh {
-    grid-column: 1;   
-    justify-self: start;
-}
+
+
+
+
+
 
 .Logo {
     grid-column: 2;   
     justify-self: center;
 }
 
-.menu-items {
-    grid-column: 3;  
-    justify-self: end;
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: #f8bbd0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  min-width: 150px;
+  z-index: 1;
+  border-radius: 5px;
+}
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 header a {
@@ -181,14 +170,89 @@ footer {
   padding: 20px;
 }
 
-h1 , h2   {
-     font-family: 'LEMONMILK-Medium';
+.animar {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 1s forwards;
+}
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-a , p {
-     font-family: 'TT Fors Trial Regular';
+.resaltar {
+  background-color: #f8bbd0;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.resaltar:hover {
+  background-color: #b53fa0;
+  transform: scale(1.05); 
+  box-shadow: 0 0 25px rgba(181, 63, 160, 0.6);
+}
+
+
+
 
 body{
     background-color: rgb(196, 218, 250);
+}
+/* === Carrusel de imágenes === */
+
+.carrusel {
+  width: 100%;
+  overflow: hidden;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 500%; /* 5 imágenes */
+  animation: slide 20s infinite ease-in-out;
+}
+
+.slides img {
+  width: 20%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
+}
+
+/* Animación de desplazamiento */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  15% { transform: translateX(0); }
+
+  25% { transform: translateX(-20%); }
+  40% { transform: translateX(-20%); }
+
+  50% { transform: translateX(-40%); }
+  65% { transform: translateX(-40%); }
+
+  75% { transform: translateX(-60%); }
+  85% { transform: translateX(-60%); }
+
+  100% { transform: translateX(-80%); }
+}
+
+/* === Versión responsive (celulares y tablets) === */
+@media (max-width: 768px) {
+  .slides img {
+    height: 250px; /* más bajo en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .slides img {
+    height: 200px;
+  }
 }
