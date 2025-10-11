@@ -51,3 +51,7 @@ margin-top: 8px;
   transform: scale(1.1);
   color: #4d82bc;
 }
+a {
+  color: #007bff;
+  text-decoration: none;
+}
