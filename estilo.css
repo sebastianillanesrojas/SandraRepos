@@ -33,65 +33,6 @@ header {
     justify-self: center;
 }
 
-.menu-icono {
-  width: 35px;
-  height: 25px;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.menu-icono::before,
-.menu-icono::after,
-.menu-icono span {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #000;
-  transition: transform 0.3s ease;
-}
-
-.menu-icono span {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.menu-icono::before {
-  top: 0;
-}
-
-.menu-icono::after {
-  bottom: 0;
-}
-
-
-.menu-desplegable {
-  display: none;
-}
-
-
-.menu-desplegable:checked + .menu-icono::before {
-  transform: translateY(10px) rotate(45deg);
-}
-
-.menu-desplegable:checked + .menu-icono::after {
-  transform: translateY(-10px) rotate(-45deg);
-}
-
-.menu-desplegable:checked + .menu-icono span {
-  background-color: transparent;
-}
-
-
-.menu-items {
-  display: none;
-}
-
-.menu-desplegable:checked ~ .menu-items {
-  display: block;
-}
 
 
 header a {
