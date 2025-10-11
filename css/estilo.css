@@ -22,30 +22,19 @@ h1{
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(196, 218, 250);
-  display: block; 
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 
 .Carrusel {
-  width: 100%;
+  width: 90%;
   max-width: 800px;
-  margin: 60px auto; 
-  position: relative;
-  z-index: 1; 
+  margin: 50px auto;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
   padding: 10px;
+  text-align: center;
   box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.25);
-}
-
-.Carrusel .control {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .Carrusel .Imagenes {
@@ -53,11 +42,11 @@ body {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  width: 100%;
+  border-radius: 10px;
 }
 
 .Carrusel .Imagenes::-webkit-scrollbar {
-  display: none; 
+  display: none;
 }
 
 .Carrusel .Imagenes img {
@@ -89,25 +78,12 @@ body {
   background-color: #8a2c82;
 }
 
-@media (max-width: 700px) {
-  .Carrusel {
-    max-width: 95%;
-  }
 
-  .Carrusel .Imagenes img {
-    height: 250px;
-  }
-}
-
-
-
-/* ==== CARRUSEL2 ==== */
 .Carrusel2 {
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   margin: 60px auto;
   text-align: center;
-  position: relative;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 12px;
   padding: 20px;
@@ -118,34 +94,27 @@ body {
   font-size: 1.8rem;
   color: #8a2c82;
   margin-bottom: 20px;
-  font-weight: 700;
 }
 
-/* ==== CONTENEDOR CONTROL ==== */
 .Carrusel2 .Ctrl {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* ==== IMÁGENES ==== */
-.Carrusel2 .img-container {
+.Carrusel2 .Imagenes2 {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  width: 100%;
   border-radius: 10px;
 }
 
-.Carrusel2 .img-container::-webkit-scrollbar {
-  display: none; /* Oculta barra de desplazamiento */
+.Carrusel2 .Imagenes2::-webkit-scrollbar {
+  display: none;
 }
 
-.Carrusel2 .img-container img {
+.Carrusel2 .Imagenes2 img {
   flex: 0 0 100%;
   width: 100%;
   height: 350px;
@@ -154,15 +123,14 @@ body {
   border-radius: 10px;
 }
 
-/* ==== PUNTOS DE NAVEGACIÓN ==== */
-.Carrusel2 .nav-puntos {
+.Carrusel2 .puntos {
   display: flex;
   justify-content: center;
   margin-top: 15px;
   gap: 10px;
 }
 
-.Carrusel2 .nav-puntos a {
+.Carrusel2 .puntos a {
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -171,25 +139,19 @@ body {
   transition: background 0.3s;
 }
 
-.Carrusel2 .nav-puntos a:hover {
+.Carrusel2 .puntos a:hover {
   background-color: #8a2c82;
 }
 
-/* ==== RESPONSIVE ==== */
-@media (max-width: 700px) {
-  .Carrusel2 {
-    max-width: 95%;
-  }
 
-  .Carrusel2 .img-container img {
+@media (max-width: 700px) {
+  .Carrusel .Imagenes img {
+    height: 250px;
+  }
+  .Carrusel2 .Imagenes2 img {
     height: 220px;
   }
-
-  .Carrusel2 h2 {
-    font-size: 1.5rem;
-  }
 }
-
 
 header {
     display: flex;
