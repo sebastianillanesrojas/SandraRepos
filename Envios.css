@@ -13,7 +13,7 @@ h1{
 }
 .texto {
   display: inline-block;
-  transition: all 0.3 ease;
+  transition: all 1s ease;
   padding: 4px 6px;
   border-radius: 6px;
   font-weight: 500;
