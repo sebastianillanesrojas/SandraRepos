@@ -1,14 +1,16 @@
 /*css externo de productos*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-h1{
-  /* font-family: "Oswald", sans-serif; */
+
+@font-face {
+  font-family: 'TT Fors Trial Regular';
+  src: url("../fuentes/TT Fors Trial Regular.ttf");
+}
+
+h1,h2, h3, h4{
+  font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
- 
 }
-@font-face{
-    font-family: 'TT Fors Trial Regular' ;
-    src: url("../fuentes/TT\ Fors\ Trial\ Regular.ttf");
-}
+
 @property --a {
   syntax: "<angle>";
   inherits: false;
@@ -36,9 +38,7 @@ img{
 p, h5{
     font-family: 'TT Fors Trial Regular';
 }
-h1,h2, h3, h4{
-    font-family: 'LEMONMILK-Medium';
-}
+
 /* CAJAS SALADAS */
 .salado{
     background-color: rgb(196, 218, 250);
