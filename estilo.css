@@ -237,3 +237,60 @@ a , p {
 body{
     background-color: rgb(196, 218, 250);
 }
+/* === Carrusel de imágenes === */
+
+.carrusel {
+  width: 100%;
+  overflow: hidden;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 500%; /* 5 imágenes */
+  animation: slide 20s infinite ease-in-out;
+}
+
+.slides img {
+  width: 20%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 1s ease-in-out;
+}
+
+/* Animación de desplazamiento */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  15% { transform: translateX(0); }
+
+  25% { transform: translateX(-20%); }
+  40% { transform: translateX(-20%); }
+
+  50% { transform: translateX(-40%); }
+  65% { transform: translateX(-40%); }
+
+  75% { transform: translateX(-60%); }
+  85% { transform: translateX(-60%); }
+
+  100% { transform: translateX(-80%); }
+}
+
+/* === Versión responsive (celulares y tablets) === */
+@media (max-width: 768px) {
+  .slides img {
+    height: 250px; /* más bajo en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .slides img {
+    height: 200px;
+  }
+}
