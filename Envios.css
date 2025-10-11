@@ -5,12 +5,15 @@ body {
   line-height: 1.6;
   padding: 40px;
 }
-h1{
-  color: #222;
-  margin-bottom: 20px;
-  font-optical-sizing: auto;
-  font-family: 'LEMONMILK-Medium';
+
+.card {
+  background: #c4dafa; 
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
 }
+
 .texto {
   display: inline-block;
   transition: all 1s ease;
