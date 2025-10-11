@@ -14,6 +14,20 @@ h1{
   inherits: false;
   initial-value: 0deg;
 }
+/* TÍTULOS  */
+#sal{
+    text-align: center;
+}
+
+#dul{
+    text-align: center;
+}
+
+#ed{
+    text-align: center;
+}
+
+/* GENERAL */
 body{
     background-color: #80739e;
 }
@@ -26,30 +40,13 @@ p, h5{
 h1,h2, h3, h4{
     font-family: 'LEMONMILK-Medium';
 }
+/* CAJAS SALADAS */
 .salado{
     background-color: rgb(196, 218, 250);
     border: 2px solid #ccc;
     border-radius: 8px;
 }
-.Dulce{
-    background-color: rgb(245, 215, 223);
-    border: 2px solid #ccc;
-    border-radius: 8px;
-}
-.Edicion{
-    background-color: rgb(246, 246, 197);
-    border: 2px solid #ccc;
-    border-radius: 8px;
-}
-#sal{
-    text-align: center;
-}
-#dul{
-    text-align: center;
-}
-#ed{
-    text-align: center;
-}
+
 .PSalado{
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -62,12 +59,26 @@ h1,h2, h3, h4{
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
     opacity: 0.9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-
 }
+
 .PSalado:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   opacity: 1;
+}
+
+.contenedor-salado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap:20px;
+}
+
+/* CAJAS DULCES */
+.Dulce{
+    background-color: rgb(245, 215, 223);
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
 
 .Pdulce{
@@ -91,13 +102,6 @@ h1,h2, h3, h4{
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
-.contenedor-salado {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-gap:20px;
-}
-
 .TartasFrutales{
     display: flex;
     justify-content: center;
@@ -114,6 +118,7 @@ gap:20px;
     align-items: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .contenedor-tartas {
   display: flex;
   flex-wrap: wrap;
@@ -121,6 +126,12 @@ gap:20px;
 gap:20px;
 }
 
+/* CAJAS ESPECIALES */
+.Edicion{
+    background-color: rgb(246, 246, 197);
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
 .PEsp{
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -132,6 +143,7 @@ gap:20px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .PEsp img{
     max-width: 100%;
     height: auto;
@@ -149,3 +161,6 @@ gap:20px;
   justify-content: center;
 gap:20px;
 }
+
+
+
