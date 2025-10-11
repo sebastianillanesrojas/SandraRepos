@@ -4,3 +4,9 @@ body {
   line-height: 1.6;
   padding: 40px;
 }
+h1{
+  color: #222;
+  margin-bottom: 20px;
+  font-optical-sizing: auto;
+  font-family: 'LEMONMILK-Medium';
+}
