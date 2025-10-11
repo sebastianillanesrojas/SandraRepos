@@ -25,16 +25,49 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5d7ef;
+  padding: 10px 20px;
+  position: relative; 
+  z-index: 10; 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(196, 218, 250);
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5d7ef;
+  padding: 10px 20px;
+  position: relative; /* Para no tapar el carrusel */
+  z-index: 10; /* Por el menu de hamburguesa */
+}
 
 .Carrusel {
   width: 90%;
   max-width: 800px;
-  margin: 50px auto;
+  margin: 60px auto;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
   padding: 10px;
   text-align: center;
   box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1; 
 }
 
 .Carrusel .Imagenes {
@@ -78,7 +111,6 @@ body {
   background-color: #8a2c82;
 }
 
-
 .Carrusel2 {
   width: 90%;
   max-width: 800px;
@@ -88,6 +120,8 @@ body {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1; 
 }
 
 .Carrusel2 h2 {
@@ -143,7 +177,6 @@ body {
   background-color: #8a2c82;
 }
 
-
 @media (max-width: 700px) {
   .Carrusel .Imagenes img {
     height: 250px;
@@ -152,6 +185,18 @@ body {
     height: 220px;
   }
 }
+
+section, header, footer {
+  position: relative;
+  z-index: 1;
+}
+
+img {
+  pointer-events: auto; 
+}
+
+
+
 
 header {
     display: flex;
