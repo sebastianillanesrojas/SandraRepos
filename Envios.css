@@ -38,3 +38,16 @@ margin-top: 8px;
 .lista li::marker {
   color: #4d82bc;
 }
+.lista strong {
+  font-weight: 600;
+  color: #000;
+}
+.lista li.resaltado {
+  display: list-item;
+  transition: transform 1.03s ease, color 1.03s ease;
+  cursor: pointer;
+}
+.lista li.resaltado:hover{
+  transform: scale(1.1);
+  color: #4d82bc;
+}
