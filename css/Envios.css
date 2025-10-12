@@ -1,11 +1,16 @@
 body {
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "sans-serif";
   background-color: #84b6f4;
   color: #333;
   line-height: 1.6;
   padding: 40px;
 }
-
+h1, p, h2, li, a {
+  font-family: sans-serif;
+}
+p {
+  font-size: medium;
+}
 .card {
   background: #c4dafa; 
   border-radius: 10px;
@@ -36,7 +41,7 @@ margin-top: 8px;
 .lista li {
   margin-bottom: 8px;
   color: #333;
-  font-family: 'LEMONMILK-Medium';
+  font-family: 'sans-serif';
 }
 .lista li::marker {
   color: #4d82bc;
