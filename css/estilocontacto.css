@@ -24,4 +24,14 @@ p img{
   height: 20px;
   vertical-align: middle;
 }
+h4 a {
+  text-decoration: none;
+  color: #33001f;
+  font-weight: bold;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
 
+h4 a:hover {
+  color: #8c2c4a;
+  border-bottom: 2px solid #8c2c4a;
+}
