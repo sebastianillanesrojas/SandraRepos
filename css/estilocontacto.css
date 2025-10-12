@@ -18,3 +18,10 @@ p, h4 {
   font-family: sans-serif;
   color: #333;
 }
+
+p img{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
