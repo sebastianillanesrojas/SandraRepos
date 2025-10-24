@@ -4,4 +4,4 @@ const mensaje = document.getElementById('mensaje');
 const cerrar = document.getElementById('cerrar');
 
 titulo.addEventListener('click', () => {
-
+  mensaje.textContent = '¡Bienvenido a la Repostería Sandra Repos!';
