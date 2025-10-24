@@ -7,3 +7,5 @@ titulo.addEventListener('click', () => {
   mensaje.textContent = '¡Bienvenido a la Repostería Sandra Repos!';
   modal.style.display = 'flex';
 });
+
+titulo.addEventListener('contextmenu', (e) => {
