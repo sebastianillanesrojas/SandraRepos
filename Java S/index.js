@@ -9,3 +9,4 @@ titulo.addEventListener('click', () => {
 });
 
 titulo.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
