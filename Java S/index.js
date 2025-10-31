@@ -11,3 +11,5 @@ titulo.addEventListener('click', () => {
 titulo.addEventListener('contextmenu', (e) => {
   e.preventDefault();
   mensaje.textContent = 'Gracias por visitar nuestra pastelería.';
+   modal.style.display = 'flex';
+});
