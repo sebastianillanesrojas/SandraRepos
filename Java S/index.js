@@ -15,3 +15,5 @@ titulo.addEventListener('contextmenu', (e) => {
 });
 
 cerrar.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
