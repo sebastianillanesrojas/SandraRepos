@@ -1,3 +1,3 @@
 function cambiarColor() {
-        document.body.style.backgroundColor = "black"; 
+        document.body.style.backgroundColor = "#966282ff"; 
     }
