@@ -29,13 +29,19 @@ h1,h2, h3, h4{
     text-align: center;
 }
 /* GENERAL */
+button{
+  border: 0;
+  background-color: #33001f;
+  border-radius: 5%;
+  color:white;
+}
 body{
     background-color: #80739e;
 }
 img{
     border-radius: 3%;
 }
-p, h5{
+p, h5, button{
     font-family: 'TT Fors Trial Regular';
 }
 
