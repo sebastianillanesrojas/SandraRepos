@@ -21,6 +21,13 @@
       font-family: 'Roboto', sans-serif;
     }
 
+    #modal{
+      width: 300px;
+      height: 50px;
+      background-color: #eda8a8;
+      display: none;
+    }
+
     </style>
 </head>
 
@@ -45,11 +52,16 @@
             </div>
         </header>
     
-       <h1 class="animar">Reposteria "Sandra Repos"</h1>
+       <h1 id="jsAnim">Reposteria "Sandra Repos"</h1>
+
+       <div id="modal">
+        <p id="mensaje"></p>
+        <button id="cerrar">X</button>
+       </div>
    
     <section>
         <h2 class="card resaltar">¿Quienes somos?</h2>
-        <p class="animar">Bienvenidos a SandraRepos. Aquí encontrarás una variedad de productos, como tortas, cupcakes, tartas, box de
+        <p class="mensaje" >Bienvenidos a SandraRepos. Aquí encontrarás una variedad de productos, como tortas, cupcakes, tartas, box de
             desayuno e incluso opciones saladas.</p>
     </section>
     
@@ -101,5 +113,5 @@
 </div>
 
 </body>
-<script src="Java S/index.js"> </script>
+<script src="Java S\index.js"> </script>
 </html>

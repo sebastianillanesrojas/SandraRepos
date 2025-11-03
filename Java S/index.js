@@ -1,11 +1,13 @@
-const titulo = document.querySelector('animar');
+const titulo = document.getElementById('jsAnim');
 const modal = document.getElementById('modal');
 const mensaje = document.getElementById('mensaje');
 const cerrar = document.getElementById('cerrar');
 
-titulo.addEventListener('click', () => {
+titulo.addEventListener('mouseover', () => {
+  console.log("Pasa por encima");
   mensaje.textContent = '¡Bienvenido a la Repostería Sandra Repos!';
-  modal.style.display = 'flex';
+  // modal.style.display = 'flex';
+  modal.style.display = 'inline';
 });
 
 titulo.addEventListener('contextmenu', (e) => {
