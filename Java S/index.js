@@ -6,7 +6,7 @@ const cerrar = document.getElementById('cerrar');
 titulo.addEventListener('mouseover', () => {
   console.log("Pasa por encima");
   mensaje.textContent = '¡Bienvenido a la Repostería Sandra Repos!';
-  // modal.style.display = 'flex';
+  
   modal.style.display = 'inline';
 });
 
