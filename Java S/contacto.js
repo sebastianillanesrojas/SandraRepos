@@ -6,5 +6,5 @@ titulo.addEventListener("mouseover", (event) => {
  })
 
 titulo.addEventListener("mouseout", (event) => {
-    titulo.style.backgroundColor="white"; #68ba2dff
+    titulo.style.backgroundColor="#8c2c4a";
  })
