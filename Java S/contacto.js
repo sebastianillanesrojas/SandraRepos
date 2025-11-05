@@ -2,7 +2,7 @@ var titulo = document.getElementById("titulo");
 
 // 
 titulo.addEventListener("mouseover", (event) => {
-    titulo.style.backgroundColor="blue";
+    titulo.style.backgroundColor="#33001f";
  })
 
 titulo.addEventListener("mouseout", (event) => {
