@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   enlace.addEventListener("click", (e) => {
     const confirmar = confirm("¿Deseas abrir la ubicación en Google Maps?");
     if (!confirmar) {
-        
+        e.preventDefault();
     }
     });
 })
