@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const enlace = document.querySelector("a[href*='maps']");
   enlace.addEventListener("click", (e) => {
-    
+    const confirmar = confirm("¿Deseas abrir la ubicación en Google Maps?");
     });
 })
